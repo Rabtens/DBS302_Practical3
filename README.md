@@ -20,7 +20,7 @@ To design and implement an e-commerce platform schema using MongoDB, write advan
 
 ## 2. Schema Design
 
-The schema follows **query-first design** — data that is read together is stored together. Four main collections are used. Embedding is applied for bounded, tightly coupled data; referencing is used for shared or unbounded entities.
+The database schema adopts a query-first approach where related data is grouped together. The schema makes use of four primary collections. Bounded and coupled data use embedding while shared or unbounded data utilize referencing.
 
 | Collection | Design Choice | Justification |
 |---|---|---|
